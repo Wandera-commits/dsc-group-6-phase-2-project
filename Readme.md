@@ -9,8 +9,6 @@ This project uses the King County House Sales dataset, which can be found in kc_
 
 ### Business Understanding:
 
-### Business Understanding:
-
 The Kings County Sales Data served as the foundation for our analysis, allowing the team to formulate clear and actionable recommendations for stakeholders. As a real estate agent specializing in properties in Kings County, our primary audience includes house sellers and potential buyers. These individuals are looking to either sell or purchase a property in King County and seek professional advice to guide their transactions. By leveraging this data, we aim to provide insights and strategies that will help our clients make informed decisions, ensuring successful and satisfactory real estate experiences. 
 
 For this project, we developed models to address the following business challenges:
