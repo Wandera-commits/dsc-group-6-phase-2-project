@@ -123,33 +123,32 @@ The following limitations were identified for the models generated:
 
 
 ## Step 5: Recommendations
-The following recommendations were proposed from the data:
 
-1. Emphasize Key Features to Buyers and Sellers:
 
-Given the strong influence of certain features on house prices, real estate agents should focus on these key aspects when advising clients. Emphasizing the importance of living space (sqft_living), house grade, and waterfront views can help buyers prioritize properties with these attributes, as they significantly increase house prices. Sellers can also benefit from understanding that investing in these areas can lead to higher returns.
+### For Potential Buyers:
 
-2. Use Model Insights for Strategic Investments:
+1. Focus on Key Features for Better Investments
 
-Real estate investors can leverage the model's insights to make strategic investments. Understanding that features like sqft_living, grade, and waterfront significantly increase prices, investors can prioritize properties with these attributes for higher returns. Additionally, considering renovations or improvements that enhance these features can be a strategic move to maximize property value.
+- Living Space: Prioritize properties with larger living spaces (sqft_living), as this significantly impacts house prices. A larger living area often translates to higher value and greater comfort.
+- House Grade: Pay attention to the grade of the house. Higher-grade homes typically offer better quality and long-term value.
+- Waterfront Views: If within budget, consider properties with waterfront views, as these can substantially increase the property's value and appeal.
 
-3. Emphasize the Importance of Maintenance and Renovation:
+2. Consider Location and Neighborhood Characteristics
 
-The model shows that maintaining and renovating homes significantly impacts their grades. Features such as the year built (coefficient: 0.009) and year renovated (though not statistically significant in this model) are crucial. Homeowners should prioritize regular maintenance and consider timely renovations to improve or maintain their home’s grade, thereby increasing its market value and appeal.
+- Geographic Location: Properties located at higher latitudes and lower longitudes tend to be more valued. Focus on these geographic characteristics when choosing a location.
+- Neighboring Property Sizes: Evaluate the average living space (sqft_living15) and lot size (sqft_lot15) of neighboring properties. Areas with larger average sizes tend to appreciate more in value, providing better investment potential.
 
-4. Address Potential Negative Influences:
+### For Homeowners
 
-The analysis indicates that some structural characteristics might negatively affect house grades. For instance,  in model 3, the number of bedrooms (coefficient: -0.1458) and waterfront properties (coefficient: -0.2446) surprisingly have negative coefficients. This suggests that simply adding more bedrooms without considering overall space quality or certain waterfront properties might not always lead to higher grades. Buyers should carefully evaluate these aspects in relation to the overall property condition and other features.
+1. Enhance key features to maximize returns, and consider strategic renovations and maintenance
 
-5. Highlight the Importance of Location:
 
-The regression analysis indicates that neighborhood characteristics significantly influence house prices. Factors like latitude (coefficient: 612,900) and longitude (coefficient: -426,900) show strong relationships with property prices. This suggests that properties located in certain areas (higher latitudes and lower longitudes) are valued more highly. Homebuyers should carefully consider the geographic location when evaluating properties, as it plays a crucial role in the overall value.
+- Living Space Improvements: Consider expanding or improving the living space of your home. This can significantly boost its market value and make it more attractive to potential buyers.
+- Maintain High House Grades: Regular maintenance and improvements to the home's grade can lead to higher returns. Focus on quality enhancements that boost the overall grade of your property.
 
-6. Emphasize the Impact of Nearby Property Sizes:
 
-The square footage of living space (sqft_living15, coefficient: 151.75) and lot size (sqft_lot15, coefficient: 0.42) of neighboring properties also have a significant impact on house prices. Properties in neighborhoods with larger average living spaces and lot sizes tend to be more expensive. Buyers should assess the average property sizes in a neighborhood to gauge potential price appreciation, while sellers can leverage this information to set competitive prices.
 
-7. Utilize Grade as a Key Selling Point:
+By following these recommendations, potential buyers can make informed decisions to maximize their investments, while homeowners can enhance their properties to achieve higher returns when selling.
 
-The grade of a house (coefficient: 144,500) is a crucial determinant of its price. Higher-grade homes command significantly higher prices, indicating that buyers are willing to pay a premium for quality. Sellers should focus on maintaining or improving the grade of their homes to maximize their market value. Buyers should consider the grade as an indicator of overall quality and long-term value when making purchasing decisions.
+
 
