@@ -1,36 +1,37 @@
 # Group 6 Project
 ## Problem Statement:
-For this project, the team will use regression modeling to analyze house sales in a NorthWestern county.
+To leverage regression modeling to provide actionable insights for homeowners and potential buyers in Kings County, enabling them to make informed decisions that maximize their investment returns and property value.
 
 ### The Data:
 This project uses the King County House Sales dataset, which can be found in kc_house_data.csv in the data folder in this repo. The description of the column names was also provided in column_names.md in the same folder.
-
-### Business Problem:
-The team was tasked with defining a stakeholder and business problem appropriate to this dataset.
 
 ## Proposed Solution:
 
 ### Business Understanding:
 
-The group have used the following imagined scenario to develop the business case for this project: 
-Group 6 is KingsCounty Realtors Ltd. A real estate agent dealing with properties in Kings County. The target audience of our modelling is household owners and potential buyers who are either looking to sell or buy a property in King County and would like to contract KingsCounty Realtors to support them with the service. 
+### Business Understanding:
 
-This model and presentation seeks to review the following objectives:
-1. Predicting the house prices 
-2. Assessing the impact of house conditions and revonations on house grade
+The Kings County Sales Data served as the foundation for our analysis, allowing the team to formulate clear and actionable recommendations for stakeholders. As a real estate agent specializing in properties in Kings County, our primary audience includes house sellers and potential buyers. These individuals are looking to either sell or purchase a property in King County and seek professional advice to guide their transactions. By leveraging this data, we aim to provide insights and strategies that will help our clients make informed decisions, ensuring successful and satisfactory real estate experiences. 
+
+For this project, we developed models to address the following business challenges:
+
+1. Predicting house prices
+2. Assessing the impact of house conditions and renovations on house grade
 3. Understanding the impact of structural characteristics on house grade
-4. Assessing neigbourhood influence on house prices
+4. Evaluating neighborhood influence on house prices
 
-For the purpose of the project, the team used the data provided in kc_house_data.csv
+The Project was divided into a systematic process that involved:
 
-The team followed the following process to achieve the above objectives and develop clear recommendations for the customer:
-1. Data Understanding
-2. Data Preparation
-3. Modelling & Evaluation
-4. Model limitations
-4. Recommendations
+- Data Understanding: Familiarizing ourselves with the dataset to identify key variables and trends.
 
-Each section is shared below with the related code elements.
+- Data Preparation: Cleaning and transforming the data to ensure accuracy and reliability.
+
+- Modeling & Evaluation: Building and assessing models to achieve our objectives.
+
+- Recommendations: Providing actionable insights based on our findings.
+
+Each section is detailed below, along with the related code elements.
+
  
 ## Step 1: Data Understanding
 To start the section, the team followed the following steps: 
